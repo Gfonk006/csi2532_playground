@@ -1,0 +1,11 @@
+drop database Athlete;
+create database athlete;
+
+CREATE TABLE athlete(
+	FirstName varchar(50),
+	LastName varchar(50),
+	brithdayDate,
+	Sex char(1),
+	Athlete_ID char(7),
+	primary key (Athlete_ID)
+);

@@ -1,0 +1,17 @@
+INSERT INTO athlete VALUES('Jean', 'Blason', '1995/02/10', 'M', '0000001');
+
+INSERT INTO athlete VALUES('Carole', 'Pilon', '1992/07/05', 'F', '0000002');
+
+SELECT*
+FROM athlete;
+
+DELETE FROM athlete
+WHERE FirstName='Jean';
+SELECT*
+FROM athlete;
+
+UPDATE athlete
+SET LastName = 'Brivian'
+WHERE LastName = 'Pilon';
+SELECT*
+FROM athlete;

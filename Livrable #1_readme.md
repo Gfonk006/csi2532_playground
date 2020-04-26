@@ -1,3 +1,3 @@
 
-Dans ce livrale, nous avons fait un diagramme ER simplifié et un modèle relationel simplifié. Nous avons ajouté une seule image dans la partie "issues" pour le diagramme ER.
-Nous avons ajouté le code pour le schéma SQL/modèle relationnel et exemples dans le fichier Livrable #1.
+Dans ce livrale, nous avons fait un diagramme ER simplifié et un modèle relationel simplifié et un modèle relationnel simplifié, qui sont identiquess. Nous avons donc ajouté une seule image dans la partie "issues" en tant que diagramme ER.
+Nous avons ajouté le code pour le schéma SQL et exemples dans le fichier Livrable #1.

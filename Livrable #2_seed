@@ -1,0 +1,55 @@
+INSERT INTO athlete VALUES('Jean', 'Blason', '1995/02/10', 'M', '0000001');
+INSERT INTO athlete VALUES('John', 'Rabba', '1993/06/10', 'M', '0000005');
+INSERT INTO athlete VALUES('Carole', 'Pilon', '1992/07/05', 'F', '0000002');
+INSERT INTO athlete VALUES('Carl', 'Diffon', '1994/05/10', 'M', '0000007');
+
+SELECT* 
+FROM athlete;
+
+DELETE
+FROM athlete 
+WHERE FirstName='Jean';
+SELECT* 
+FROM athlete;
+
+UPDATE athlete 
+SET LastName = 'Brivian' 
+WHERE LastName = 'Pilon';
+SELECT* 
+FROM athlete;
+
+INSERT INTO competitions VALUES ('Course', 'Summer', '2020/07/07', '001');
+INSERT INTO competitions VALUES ('soccer', 'Winter', '2020/02/10', '007');
+INSERT INTO competitions VALUES ('soccer', 'Winter', '2020/02/10', '003');
+SELECT* 
+FROM competitions;
+
+INSERT INTO register VALUES (7, '0000005', '003');
+INSERT INTO register VALUES (5, '0000007', '007');
+SELECT* 
+FROM register;
+
+
+DELETE
+FROM competitions 
+WHERE compet_ID='001';
+SELECT* 
+FROM competitions;
+
+DELETE
+FROM register 
+WHERE Athlete_ID ='0000007';
+SELECT* 
+FROM register;
+
+UPDATE competitions 
+SET venue = 'automne' 
+WHERE compet_ID = '007';
+SELECT* 
+FROM competitions;
+
+UPDATE register 
+SET num_of_athletes = '10' 
+WHERE Athlete_ID = '0000005';
+SELECT* 
+FROM register;
